@@ -6,6 +6,7 @@ class router{
 
       public function __construct(){
         $this->bulmaCSS = "../assets/css/bulma.min.css"; 
+        $this->estilosCSS = "../assets/css/estilos.css";
         $this->matchRoute();
       }
         
